@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Войти в аккаунт</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-        <div class="card-line">
-            <div class="card">
-                <h1>
-                    Войдите в аккаунт
-                </h1>
-                <div class="inputs">
-                    <form action="/send">
-                        <input class="input-1" type="email" placeholder="Введите почту">
-                        <input class="input-1" type="password" placeholder="Введите пароль">
-                        <button>Войти</button>
-                    </form>
-                </div>  
+    <div class="border">
+        <div class="container">
+            <h1>Войдите в аккаунт</h1>
+            <br>
+            <div class="inputs">
+                <span>Введите свою почту</span>
+                <input type="email" placeholder="Введите почту">
+
+                <span>Введите свой пароль</span>
+                <input type="password" placeholder="Введите пароль">
             </div>
+            <form action="send/" method="post">
+                <input class="button" type="button" value="Войти">
+            </form>
         </div>
+    </div>
 </body>
+
 </html>
